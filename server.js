@@ -1,5 +1,12 @@
-const express = require('express')
+const express    = require('express'),
+      bodyParser = require('body-parser'),
+      cors       = require('cors')
+
+// @Application Configurations
 const app = express()
+app.use(bodyParser.urlencoded({ extended : true }))
+app.use(bodyParser.json())
+app.use(cors())
 
 // Load User Routes
 const user = require('./controllers/User.js')
