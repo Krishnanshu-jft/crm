@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Krishnanshu-jft/crm#readme",
   "dependencies": {
     "config": "^3.3.6",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "firebase": "^8.2.10",
     "mongoose": "^5.11.19",
