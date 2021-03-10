@@ -1,0 +1,8 @@
+Code    Message
+----------------
+8081    Could not fetch All Users
+8082    Could not find user with specified id
+8083    Could not Save a user into database
+8084    Could not update user specified in params 
+
+9568    Success
